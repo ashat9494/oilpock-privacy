@@ -1,0 +1,28 @@
+<!doctype html><html lang="en"><head><meta charset="utf-8"><meta name="viewport" content="width=device-width,initial-scale=1"><meta name="color-scheme" content="light dark"><title>OilPock Privacy Policy</title><style>
+:root{color-scheme:light dark;font-family:system-ui,-apple-system,'Segoe UI',sans-serif;
+background:#f6f8fa;color:#172832}*{box-sizing:border-box}body{margin:0;line-height:1.65}
+header{background:#11222e;color:#fff;border-top:5px solid #fb901f;padding:1rem max(1rem,calc((100vw - 800px)/2))}
+header strong{font-size:1.35rem}nav{display:flex;gap:1rem;flex-wrap:wrap;margin-top:.5rem}
+nav a{color:#fff;text-decoration:underline;text-underline-offset:3px}
+main{max-width:800px;margin:auto;padding:1rem 1.25rem 3rem}h1{font-size:clamp(1.65rem,5vw,2.25rem);line-height:1.2}
+h2{font-size:1.18rem;margin-top:2rem;color:#162b38}p{margin:.7rem 0;overflow-wrap:anywhere}
+.pending{background:#fff3e3;border-left:4px solid #ef8719;padding:.75rem 1rem}
+@media(prefers-color-scheme:dark){:root{background:#0d1921;color:#eef3f6}h2{color:#cfe7f3}.pending{background:#372819}}
+</style></head><body><header><strong>OilPock</strong><nav aria-label="Languages"><a href="privacy-ru.html" hreflang="ru">Русский</a> <a href="privacy-kk.html" hreflang="kk">Қазақша</a> <a href="privacy-en.html" hreflang="en">English</a></nav></header><main><h1>OilPock Privacy Policy</h1>
+<p>Effective date: 22 October 2026</p>
+<h2>1. Purpose</h2>
+<p>OilPock is an offline vehicle maintenance log. It helps you manage vehicles, service history, and reminders. The core features do not require registration, an account, or an internet connection.</p>
+<h2>2. Information you enter</h2>
+<p>You may save a vehicle&#x27;s make, model, year, engine, fuel, transmission, name, and mileage; service categories and records, dates, costs, and notes; and reminder dates and rules. The selected language, theme, device type, and active vehicle are also saved. Names or notes may contain personal information if you choose to enter it.</p>
+<h2>3. Storage and use</h2>
+<p>Core information and preferences are stored in a local SQLite database in the app&#x27;s area on your device. OilPock uses them to display the garage, service log, calendar, and reminders. The operating system&#x27;s notification service receives the details needed to display a local reminder, including the vehicle name and service type; a notification may appear on the lock screen according to your device settings. The app does not use GPS, advertising, analytics, or accounts. In the version audited, OilPock code does not send this information to a developer server.</p>
+<h2>4. Permissions and internet</h2>
+<p>The app requests notification permission when reminders need it. On Android it uses the boot event permission to restore the schedule after a restart; the system may allow notification vibration. Declining notifications does not remove calendar entries. The Android release build does not request internet permission. The debug build has it for development tools. Actual network behavior of a signed release build still needs checking before publication.</p>
+<h2>5. Backups and external providers</h2>
+<p>Only when you choose to do so, OilPock creates or opens a backup through the system file picker. The file contains vehicles, service records, reminders, and some preferences. It has a checksum for integrity but is not encrypted. Your chosen destination may be local or a cloud provider, whose privacy practices apply to the file once you select it. When opening a file, the system picker and its library may temporarily copy it into the app cache; the operating system manages temporary-file cleanup. On Android, OilPock disables system app backup and excludes its data from standard cloud backup and Android device-to-device transfer rules. Behavior on a specific manufacturer&#x27;s device still needs checking; previously created system copies may remain with a provider. On iOS, app data may be included in a system backup under your device settings. OilPock does not control the retention or deletion of those external copies.</p>
+<h2>6. Deletion and retention</h2>
+<p>You can delete vehicles, individual service records, and reminders in the app. Confirmed deletion of a vehicle also removes its related records; archiving keeps the data. To remove all local OilPock data, clear the app&#x27;s data in device settings or uninstall the app. Backup files you saved and system backups must be deleted separately with their respective providers. In the audited version, the developer does not keep a separate server copy of your database.</p>
+<h2>7. Limitations</h2>
+<p>OilPock does not replace manufacturer guidance, vehicle diagnostics, or professional maintenance. Notification delivery depends on device permissions and battery settings; delivery at an exact time or of every reminder cannot be guaranteed. Protect your backup files because they may contain personal information.</p>
+<h2>8. Changes and contact</h2>
+<p>If features or data practices change, this policy will be updated with a new effective date. Developer contact: <a href="mailto:beyondfactskz@gmail.com">beyondfactskz@gmail.com</a>.</p></main></body></html>
